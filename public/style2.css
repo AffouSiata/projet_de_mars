@@ -1,0 +1,13 @@
+header{
+    background:#fff;
+    border-radius: .5rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
+    padding:1rem 2%;
+  
+}
+header .navbar a{
+    margin-left: 2rem;
+    font-size: 2rem;
+    color:#333;
+    /* text-decoration: none; */
+}

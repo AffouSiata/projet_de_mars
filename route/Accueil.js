@@ -2,10 +2,14 @@ const express = require("express");
 const router =express.Router();
 
 
-router.get('/',()=>{
-    res.render('index')
+router.get('/',(req,res)=>{
+    res.render('home')
+    
 });
-router.post();
+router.get('/teacher',(req,res)=>{
+    res.render('teacher')
+    
+});
 
 
 module.exports=router
