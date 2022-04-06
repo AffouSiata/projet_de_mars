@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+*{
+    font-family: 'Nunito', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s ease-out;
+  }
+body{
+    /* background:var(--gradient); */
+    /* background-color: rgb(73, 73, 110); */
+    background-image: url("../public/Images/educ9.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding:2rem 4%;
+}
+.container{
+    background:rgb(234, 231, 231);
+    border-radius: .5rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
+}
+.heading{
+  color:transparent;
+  background:linear-gradient(90deg, violet,rgb(63, 181, 232)); 
+  -webkit-background-clip: text;
+  background-clip: text;
+  padding:0 1rem;
+  padding-top: 2.5rem;
+  text-align: center;
+  font-size: 4rem;
+  text-transform: uppercase;
+}
+
+  
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding:2rem 5%;
+     border-bottom: .1rem solid rgba(0,0,0,.1); 
+    position: relative;
+    z-index: 1000;
+}
+header .logo{
+    font-size: 2.5rem;
+    color:violet;
+    font-weight: bold;
+}
+
+header .logo span{
+    color:rgb(63, 181, 232);
+}
+/* .navbar ul li{
+  list-style-type: none;
+  display: flex;
+} */
+header .navbar a{
+    margin-left: 2rem;
+    font-size: 2rem;
+    color:#333;
+    /* text-decoration: none; */
+}
+header .navbar a:hover{
+    color:rgb(63, 181, 232);;
+}
+#menu{
+    font-size: 2.5rem;
+    padding:.5rem 1rem;
+    border-radius: .3rem;
+    border:.1rem solid rgba(0,0,0,.2);
+    cursor: pointer;
+    display: none;
+}
+
+
+.corps1{
+   height: 1350px; 
+    border-bottom: .1rem solid rgba(2, 1, 1, 0.772); 
+}
+.corps1 h1{
+    margin-top: 100px;
+    margin-left:160px; 
+    font-size: 40px;
+}
+.corps1 img{
+   height: 1200px;
+   width: 100%; 
+   object-fit: cover;
+}
+.cours{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 70px;
+    /* border-bottom: .1rem solid rgba(2, 1, 1, 0.772); */
+    
+}
+.card{
+    background:white;  
+    width: 370px;
+    height: 500px;
+    margin: 10px;
+    border-radius: 15px;
+    border-bottom: .1rem solid rgba(2, 1, 1, 0.772);
+}
+.card-image{
+    /* background-color: red; */
+    height:320px;
+    margin-bottom: 16px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+  
+}  
+.images1{
+    background-image: url("../public/Images/img.jpg");
+}
+.images2{
+    background-image: url("../public/Images/img1.jpg");
+}
+.images3{
+    background-image: url("../public/Images/img2.jpg");
+}
+  
+.images4{
+    background-image: url("../public/Images/img3.jpg");
+}
+.images5{
+    background-image: url("../public/Images/img4.jpg");
+}
+.images6{
+    background-image: url("../public/Images/img5.jpg");
+}
+.images7{
+    background-image: url("../public/Images/img6.jpg");
+    object-fit: cover;
+    background-size: cover;
+} 
+.images8{
+    background-image: url("../public/Images/img7.jpg");
+}
+.card h2{
+    padding: 10px;
+    text-align: center;
+}
+.card p{
+    padding: 10px;
+}
+.card a{
+    /* background-color: #333;; */
+    color: violet;
+    padding:  20px;
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin:20px 50px;
+    border-radius: 20px;
+    text-decoration: none;
+    border: 2px solid rgb(63, 181, 232);
+}
+.card a:hover{
+    /* background:linear-gradient(90deg, violet,rgb(63, 181, 232)); */
+
+}
+.footer .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.5rem;
+   
+}
+  
+  .footer .box-container .box{
+    flex:1 1 20rem;
+}
+  
+.footer .box-container .box h3{
+  font-size: 2rem;
+    color:violet;
+    padding:.7rem 0;
+}
+  
+.footer .box-container .box p{
+    font-size: 1.5rem;
+    color:#666;
+    padding:.7rem 0;
+    text-align: justify;
+}
+  
+.footer .box-container .box a{
+    display: block;
+    font-size: 1.5rem;
+    color:#666;
+    padding:.7rem 0;
+    text-decoration: none;
+}
+  
+.footer .box-container .box a:hover{
+    color:rgb(63, 181, 232);
+}
+  
+.footer .box-container .box p i{
+    padding-right: .5rem;
+    color:rgb(63, 181, 232);
+}
+  
+.footer .credit{
+    font-size: 2rem;
+    margin-top: 1rem;
+    padding:1rem;
+    padding-top: 2rem;
+    text-align: center;
+    border-top: .1rem solid rgba(0,0,0,.1);
+    color:#666;
+}
+  
+.footer .credit span{
+    color:rgb(63, 181, 232);
+}
+
+

@@ -123,6 +123,7 @@ header .navbar a:hover{
     }
   
 }
+
 section{
     padding:2rem 7%;
   }
@@ -152,14 +153,14 @@ section{
     -webkit-background-clip: text;
     background-clip: text;
     font-size: 4rem;
-  }
+}
   
-  .home .content p{
+.home .content p{
     padding:.5rem 0;
     font-size: 1.7rem;
     color:#666;
     text-align: justify;
-  }
+}
 .btn{
     display: inline-block;
     margin-top: 1rem;
@@ -174,117 +175,6 @@ section{
 .btn:hover{
     background:linear-gradient(90deg, violet,rgb(63, 181, 232)); 
 }
-
-
-
-
-.cours{
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-.card{
-  background:rgb(208, 204, 204); 
-  width: 370px;
-  height: 700px;
-  margin: 10px;
-  border-radius: 15px;
-}
-.card-image{
-  /* background-color: red; */
-  height:420px;
-  margin-bottom: 16px;
-  background-size: cover;
-  border-radius: 15px 15px 0 0;
-
-}  
-.images1{
-  background-image: url("../public/Images/educ4.jpg");
-}
-.images2{
-  background-image: url("../public/Images/educ15.jpg");
-}
-.images3{
-  background-image: url("../public/Images/educ16.jpg");
-}
-
-.images4{
-  background-image: url("../public/Images/educ6.jpg");
-}
-.card h2{
-  padding: 10px;
-  text-align: center;
-}
-.card p{
-  padding: 10px;
-}
-.card a{
-  background-color: #333;;
-  color: #fff;
-  padding:  25px;
-  display: block;
-  text-align: center;
-  margin:20px 50px;
-  border-radius: 20px;
-}
-.card a:hover{
-  background:linear-gradient(90deg, violet,rgb(63, 181, 232)); 
-}
-
-.teacher{
-  display: flex;
-  flex-wrap: wrap;
-  gap:1.5rem;
-  
-}
-
-.teacher .box{
-  flex:1 1 23rem;
-  border:.1rem solid rgba(0,0,0,.1);
-  border-radius:.5rem;
-  padding:1.5rem;
-  text-align: center;
-}
-
-.teacher .box img{
-  height: 10rem;
-  width:10rem;
-  margin:.5rem 0;
-  border-radius: 50%;
-  object-fit: cover;
-}
-
-.teacher .box h3{
-  color:violet;
-  font-size: 2.5rem;
-}
-
-.teacher .box span{
-  color:rgb(63, 181, 232);;
-  font-size: 2rem;
-}
-
-.teacher .box p{
-  color:#666;
-  font-size: 1.5rem;
-  padding:1rem 0;
-}
-
-.teacher .box .share a{
-  height:4rem;
-  width:4rem;
-  line-height: 4rem;
-  font-size: 2rem;
-  background:rgb(63, 181, 232);
-  border-radius: .5rem;
-  margin:.3rem;
-  color:#fff;
-}
-
-.teacher .box .share a:hover{
-  background:violet;
-}
-
 
 .footer .box-container{
     display: flex;
@@ -339,27 +229,3 @@ section{
 .footer .credit span{
     color:rgb(63, 181, 232);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
